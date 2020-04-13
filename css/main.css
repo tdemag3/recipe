@@ -1,0 +1,91 @@
+body,
+figure {
+  margin: 0;
+}
+
+h1 {
+  color: #966d32;
+  font-size: 3em;
+  text-align: center;
+}
+
+figcaption.credit {
+  color: #d8d8d8;
+  text-align: right;
+}
+
+p.byline {
+  font-weight: bold;
+  text-align: center;
+}
+
+body {
+  background-color: #fff;
+  font-family: Georgia, serif;
+  color: #c97f27;
+  max-width: 60em; /* 960px 16px=1em) */
+  padding: 0 1em 0 1em; /* padding-top, padding-right, padding-bottom, padding-left */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: #966d32;
+  font-size: 1.5em
+}
+
+p,
+li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  line-height: 1.15; /* unitless */
+}
+
+
+/* links */
+
+a{
+  color:#76af3f ;
+}
+
+a:hover {
+  color: #9bd162;
+  cursor: pointer;
+}
+
+a:focus,
+a:active {
+  color: #9bd162;
+}
+
+/* responsive images */
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+img.headshot {
+  max-width: 8em;
+  vertical-align: middle;
+  border-radius: 8px;
+  margin-right: .5rem;
+}
+
+/* hero figure/img */
+
+figure.hero {
+  margin: 0 -1em;
+}
+
+figure.hero img{
+  margin-top: 3em;
+}
+
+figure.hero figcaption {
+  margin: 0 1em;
+}
